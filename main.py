@@ -23,6 +23,22 @@ def on_gesture_shake():
     # . # . #
     . # # # .
     """)
+    basic.pause(100)
+    basic.show_leds("""
+    . . # . .
+    . . # . .
+    . . # . .
+    . . # . .
+    . . # . .
+    """)
+    basic.pause(100)
+    basic.show_leds("""
+    . # # # .
+    # . . . #
+    # . # . #
+    # . . . #
+    . # # # .
+    """)
     Flip_coin = randint(1, 2)
     if Flip_coin == 1:
         basic.show_leds("""
